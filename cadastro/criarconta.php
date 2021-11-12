@@ -10,7 +10,7 @@ if(!empty($_POST['cad_usuario']) && !empty(['cad_usuario'])) {
         ':usuario' => $cadusuario,
         ':senha' => $cadsenha
     ));
-    header("Location: cadastro.php");
+    header("Location: ../login/login.php");
     die();
 } else {
     echo "Preencha todos os dados";
