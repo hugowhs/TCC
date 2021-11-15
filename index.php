@@ -7,6 +7,6 @@
     <title>Página Inicial</title>
 </head>
 <body>
-    
+    <a href="./login/login.php">Login</a>
 </body>
 </html>
