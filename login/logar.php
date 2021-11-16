@@ -3,7 +3,7 @@
     $logusuario = $_POST['log_usuario'];
     $logsenha = $_POST['log_senha'];
 
-    $consulta = $conn->query("SELECT * FROM usuarios WHERE usuario = '$logusuario' AND senha_usuario = '$logsenha'");
+    $consulta = $conn->query("SELECT * FROM usuarios WHERE usuario = '$logusuario' AND senha = '$logsenha'");
     if($linha = $consulta->fetch(PDO::FETCH_ASSOC) <= 0) {
         echo"<script language='javascript' type='text/javascript'>
         alert('Login e/ou senha incorretos');window.location

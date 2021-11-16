@@ -12,7 +12,7 @@
         <input type="text" name="cad_usuario" id="cad_usuario"><br><br>
 
         <label for="cad_senha">Senha</label><br>
-        <input type="text" name="cad_senha" id="cad_senha"><br><br>
+        <input type="password" name="cad_senha" id="cad_senha"><br><br>
 
         <input type="submit" value="Cadastrar" name="cadastrar" id="cadastrar">
     </form>
