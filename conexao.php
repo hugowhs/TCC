@@ -5,6 +5,8 @@ $dbname = 'tcc';
 $user = 'root';
 $pass = 'root';
 
+// Conexão com o BD
+
 try {
     $conn = New PDO("mysql:host=$host;port=$port;dbname=$dbname", $user, $pass);
     echo "Banco de dados conectado!";

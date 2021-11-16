@@ -7,6 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <a href="../index.php">SAIR</a>
+    <a href="./usuario/usuario.php">Perfil</a>
+    <a href="./livros/livros.php">Livros</a>
 </body>
 </html>
