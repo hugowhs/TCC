@@ -33,6 +33,7 @@
         <input type="number"><br><br>
 
         <input type="submit" value="Salvar" name="salvar" id="salvar">
+        <input type="submit" value="Deletar" name="deletar" id="deletar">
     </form>
 </body>
 </html>
