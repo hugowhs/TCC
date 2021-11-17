@@ -4,7 +4,7 @@
     $logsenha = $_POST['log_senha'];
 
     // Verifica usuário no banco
-    $consulta = $conn->query("SELECT * FROM usuarios WHERE usuario = '$logusuario' AND senha = '$logsenha'");
+    $consulta = $conn->query("SELECT * FROM login WHERE usuario = '$logusuario' AND senha = '$logsenha'");
     if($linha = $consulta->fetch(PDO::FETCH_ASSOC) <= 0) {
         echo"<script language='javascript' type='text/javascript'>
         alert('Login e/ou senha incorretos');window.location

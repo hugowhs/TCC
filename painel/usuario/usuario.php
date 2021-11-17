@@ -7,6 +7,32 @@
     <title>Minha Conta</title>
 </head>
 <body>
-    
+    <form action="./editarusuario.php" method="POST">
+        <label for="">Nome Completo</label><br>
+        <input type="text"><br><br>
+
+        <label for="">Data de Nascimento</label><br>
+        <input type="date"><br><br>
+
+        <label for="">Usuário</label><br>
+        <input type="text"><br><br>
+
+        <label for="">Senha</label><br>
+        <input type="password"><br><br>
+
+        <label for="">País</label><br>
+        <input type="text"><br><br>
+
+        <label for="">Estado</label><br>
+        <input type="text"><br><br>
+
+        <label for="">E-mail</label><br>
+        <input type="email" name="email" id="email"><br><br>
+
+        <label for="">Tel/Cel</label><br>
+        <input type="number"><br><br>
+
+        <input type="submit" value="Salvar" name="salvar" id="salvar">
+    </form>
 </body>
 </html>
